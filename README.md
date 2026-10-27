@@ -5,6 +5,9 @@ A formalization, in Lean 4 with Mathlib, of
 > P. Hierhager, *Liouville-Preserving Hamiltonian Scattering on Finite Compact Metric Graphs*,
 > submitted to the Journal of Mathematical Physics.
 
+Public Lean repository:
+[phierhager/hamiltonian_metric_graphs_lean](https://github.com/phierhager/hamiltonian_metric_graphs_lean).
+
 A mechanical Hamiltonian `H_e(q, p) = p²/2 + V_e(q)` on each edge of a finite compact metric graph,
 together with an energy-preserving Borel scattering law at each vertex, generates a global
 bimeasurable flow on the regular quotient phase space that preserves energy and the quotient
@@ -35,8 +38,9 @@ statement-to-declaration map for the revised article. Every numbered result is f
 including the trajectory lemmas on open intervals. Tables S1 and S2 pair these results
 with Lean declarations; the remaining sections record the formal encodings, proof routes and
 scope qualifications, including the combinatorial interpretation of the ribbon-graph genus.
-The public export includes this PDF. [PROOF_MAP.md](PROOF_MAP.md) separates the current
-correspondence from the historical development log; its archived unfinished rows are superseded.
+The public export includes this PDF and only the current correspondence from
+[PROOF_MAP.md](PROOF_MAP.md). The source repository additionally retains the superseded
+development log; that historical log is excluded from the public export.
 The thin-network results live under `HamiltonianMetricGraphs/Realization/`, with their own
 `README.md`.
 
