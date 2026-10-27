@@ -1,0 +1,15 @@
+name = "hamiltonian_jmp_lean"
+version = "0.1.0"
+defaultTargets = ["HamiltonianMetricGraphs"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.31.0"
+
+[[lean_lib]]
+name = "HamiltonianMetricGraphs"

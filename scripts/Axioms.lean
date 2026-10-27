@@ -1,0 +1,58 @@
+-- Prints the axioms of the main theorems. Run from the project root after `lake build`:
+--   lake env lean scripts/Axioms.lean
+-- Every line must report exactly [propext, Classical.choice, Quot.sound].
+import HamiltonianMetricGraphs
+open HamiltonianMetricGraphs
+#print axioms MechanicalPotential.globalDeterministicScatteredEvolution
+#print axioms MechanicalPotential.globalDeterministicScatteredEvolution_measurePreserving
+#print axioms MechanicalPotential.shellGermPerm
+#print axioms MechanicalPotential.trajectory_period
+#print axioms MechanicalPotential.extremePoints_eq_speedMatrix
+#print axioms doublyStochastic_normSq_of_unitary
+#print axioms ChannelKernel.channelKernel_dirac
+#print axioms thin_junction_global_flow_limit
+#print axioms explicit_thin_junction_realization
+#print axioms explicit_star_junction
+#print axioms explicit_energy_dependent_junction
+#print axioms explicit_energy_dependent_junction_deterministic
+#print axioms Reflection.reflect_of_barrier_sharp
+#print axioms barrier_profile
+#print axioms barrier_reflection
+#print axioms universal_reversible_realization
+#print axioms MechanicalPotential.shellRegular_iff
+#print axioms MechanicalPotential.regularShell_periodic
+#print axioms MechanicalPotential.regularShell_decomposition
+#print axioms MechanicalPotential.regularShell_measure
+#print axioms MechanicalPotential.flightTime_eq_crossing_or_turning
+#print axioms MechanicalPotential.bifurcation_locallyConstant_analytic
+#print axioms MechanicalPotential.mem_bifurcationEnergies_of_frequently_cycleType_ne
+#print axioms ThinHamiltonianNetwork.forced_involution
+#print axioms thin_junction_global_flow_limit_from_start
+#print axioms universal_reversible_realization_uniform
+#print axioms universal_reversible_realization_paper
+#print axioms thin_network_limit
+#print axioms graph_itinerary
+#print axioms thin_network_limit_of_flightState
+#print axioms MechanicalPotential.isLeast_aboveMinSpeed
+#print axioms MechanicalPotential.isGreatest_aboveMaxSpeed
+#print axioms MechanicalPotential.edge_flow_lemma
+#print axioms MechanicalPotential.speed_representation_exact
+#print axioms MechanicalPotential.borel_criterion
+#print axioms MechanicalPotential.remark_disintegration
+#print axioms MechanicalPotential.shell_ergodic_iff_one_cycle
+#print axioms MechanicalPotential.existsUnique_scatteredTrajectory
+#print axioms MechanicalPotential.quotient_charts
+#print axioms MechanicalPotential.orbit_pointSpectrum
+#print axioms MechanicalPotential.no_zeno
+#print axioms MechanicalPotential.impact_local_finiteness
+#print axioms MechanicalPotential.birkhoff_vertexLaws
+#print axioms MechanicalPotential.local_flux_form
+#print axioms MechanicalPotential.short_time_borel
+#print axioms MechanicalPotential.one_impact_measure
+#print axioms MechanicalPotential.ribbon_faces
+#print axioms MechanicalPotential.retrace_lemma
+#print axioms MechanicalPotential.energy_surface_measure
+#print axioms MechanicalPotential.quotientHamiltonian_isScatteredTrajectoryOn
+#print axioms MechanicalPotential.no_zeno_on
+#print axioms MechanicalPotential.impact_local_finiteness_on
+#print axioms MechanicalPotential.existsUnique_scatteredTrajectoryOn
