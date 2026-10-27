@@ -1,4 +1,4 @@
-# Liouville-preserving Hamiltonian scattering on finite metric graphs in Lean 4
+# Liouville-preserving Hamiltonian scattering on finite compact metric graphs in Lean 4
 
 A formalization, in Lean 4 with Mathlib, of
 
